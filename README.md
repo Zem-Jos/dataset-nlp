@@ -1,9 +1,9 @@
-Mental Health Chatbot Dataset
+# Mental Health Chatbot Dataset
 
 This repository contains a dataset for training a mental health chatbot using natural language processing techniques. The dataset includes a collection of user messages labeled with their corresponding intents and entities.
 Intent Categories
 
-The following intent categories are included in the dataset:
+### The following intent categories are included in the dataset:
 
     Greeting: User initiates conversation with a greeting message
     Symptom Query: User expresses concerns about a specific symptom
@@ -11,7 +11,7 @@ The following intent categories are included in the dataset:
     Crisis: User expresses suicidal thoughts or intentions
     Gratitude: User expresses gratitude for the chatbot's assistance
 
-Entity Recognition
+### Entity Recognition
 
 The dataset also includes entity recognition labels for specific symptoms and treatments. The following entities are included in the dataset:
 
@@ -21,7 +21,7 @@ The dataset also includes entity recognition labels for specific symptoms and tr
     Cognitive Behavioral Therapy
     Medication
 
-Data Format
+### Data Format
 
 The dataset is in a CSV format with two columns: message and label. The message column contains the user message and the label column contains the intent or entity label.
 Dataset Size
